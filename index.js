@@ -4,5 +4,5 @@ var recipes = {
 
 function updateObjectWithKeyAndValue(obj, key, value) {
 
-  return Object.assign(recipes, 'key2', '2');
+  return Object.assign(recipes, key, value);
 }
